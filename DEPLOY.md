@@ -59,5 +59,5 @@ You don’t need to push to GitHub or do anything else—just run `vercel --prod
 
 ## After deploying
 
-- **Music:** The “Play music” button only works if the file `public/music/coffee-shop.mp3` is in the repo. Add that file and push, or the button will do nothing (no error).
+- **Text animation:** The iframe under `public/text-animation-1/` loads scripts from CDNs; the deploy target needs outbound network access for those URLs.
 - **Updates:** With GitHub, push to your repo and Vercel redeploys automatically. Without GitHub, run `vercel --prod` from the project folder whenever you want to update the live site.
