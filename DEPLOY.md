@@ -9,7 +9,7 @@ Easiest option: **Vercel** (free, one command or GitHub connect).
 If you haven’t already:
 
 ```bash
-cd /Users/sobikathapa/react-website
+cd /path/to/pechakucha
 git init
 git add .
 git commit -m "Initial commit"
@@ -28,7 +28,7 @@ git push -u origin main
 1. Go to **[vercel.com](https://vercel.com)** and sign in (e.g. with GitHub).
 2. Click **“Add New…” → “Project”**.
 3. **Import** your GitHub repo.
-4. Leave the settings as-is (Vercel detects Vite). Click **Deploy**.
+4. Leave the settings as-is (Vercel detects Next.js). Click **Deploy**.
 5. In about a minute you’ll get a URL like `https://your-project.vercel.app`. Share that link so others can see the site.
 
 ---
